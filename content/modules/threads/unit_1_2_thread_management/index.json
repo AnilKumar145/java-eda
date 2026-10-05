@@ -1,0 +1,31 @@
+{
+  "id": "unit_1_2_thread_management",
+  "title": "Thread Management",
+  "order": 2,
+  "description": "Master Java thread lifecycle control: thread naming conventions, priorities, cooperative interruption handling, daemon watchdog threads, and state inspection.",
+  "duration_hours": 6,
+  "difficulty": "beginner",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Java Thread Management & Cooperative Interruption",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/ThreadManagementExercises.java",
+    "solution_file": "exercises/solutions/ThreadManagementSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "ICU Watchdog Telemetry Supervisor",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

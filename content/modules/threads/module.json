@@ -1,0 +1,33 @@
+{
+    "id": "threads",
+    "name": "Java Threading & Core Multithreading",
+    "description": "Master core multithreading in Java: the JVM thread model, lifecycle, synchronization monitors, wait/notify inter-thread communication, and ExecutorService thread pools.",
+    "order": 1,
+    "units": [
+        {
+            "id": "unit_1_1_threading_fundamentals",
+            "name": "Threading Fundamentals",
+            "order": 1
+        },
+        {
+            "id": "unit_1_2_thread_management",
+            "name": "Thread Management",
+            "order": 2
+        },
+        {
+            "id": "unit_1_3_thread_synchronization",
+            "name": "Thread Synchronization",
+            "order": 3
+        },
+        {
+            "id": "unit_1_4_thread_communication",
+            "name": "Thread Communication",
+            "order": 4
+        },
+        {
+            "id": "unit_1_5_thread_pools",
+            "name": "Thread Pools",
+            "order": 5
+        }
+    ]
+}

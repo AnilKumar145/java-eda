@@ -1,0 +1,31 @@
+{
+  "id": "unit_1_4_thread_communication",
+  "title": "Thread Communication",
+  "order": 4,
+  "description": "Master inter-thread signaling in Java: intrinsic monitor wait/notify/notifyAll protocols, bounded Producer-Consumer buffers, and modern BlockingQueue pipelines.",
+  "duration_hours": 6,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Inter-Thread Signaling: wait(), notify() & Producer-Consumer",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/ThreadCommunicationExercises.java",
+    "solution_file": "exercises/solutions/ThreadCommunicationSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Hospital ER Patient Triage Dispatcher",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

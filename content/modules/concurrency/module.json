@@ -1,0 +1,43 @@
+{
+    "id": "concurrency",
+    "name": "Java Concurrency & Advanced Parallel Architecture",
+    "description": "Master enterprise Java concurrency: java.util.concurrent locks, concurrent collections, atomic CAS memory models, CompletableFuture asynchronous pipelines, and parallel stream architectures.",
+    "order": 2,
+    "units": [
+        {
+            "id": "unit_2_1_concurrency_fundamentals",
+            "name": "Concurrency Fundamentals",
+            "order": 1
+        },
+        {
+            "id": "unit_2_2_java_concurrency_utilities",
+            "name": "Java Concurrency Utilities",
+            "order": 2
+        },
+        {
+            "id": "unit_2_3_concurrent_collections",
+            "name": "Concurrent Collections",
+            "order": 3
+        },
+        {
+            "id": "unit_2_4_atomic_operations_and_memory",
+            "name": "Atomic Operations and Memory",
+            "order": 4
+        },
+        {
+            "id": "unit_2_5_advanced_task_execution",
+            "name": "Advanced Task Execution",
+            "order": 5
+        },
+        {
+            "id": "unit_2_6_concurrency_problems_and_patterns",
+            "name": "Concurrency Problems and Patterns",
+            "order": 6
+        },
+        {
+            "id": "unit_2_7_choosing_the_right_concurrency_tool",
+            "name": "Choosing the Right Concurrency Tool",
+            "order": 7
+        }
+    ]
+}

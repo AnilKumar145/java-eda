@@ -1,0 +1,24 @@
+# Java & Maven
+target/
+.temp_bin/
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse / IntelliJ / NetBeans
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db

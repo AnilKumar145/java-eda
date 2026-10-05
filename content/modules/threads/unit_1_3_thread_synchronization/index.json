@@ -1,0 +1,31 @@
+{
+  "id": "unit_1_3_thread_synchronization",
+  "title": "Thread Synchronization",
+  "order": 3,
+  "description": "Master Java memory synchronization: mutual exclusion with synchronized methods and blocks, intrinsic object monitors, memory visibility via volatile, and lock-free atomic variables.",
+  "duration_hours": 6,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Java Synchronization, Object Monitors & Volatile",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/ThreadSynchronizationExercises.java",
+    "solution_file": "exercises/solutions/ThreadSynchronizationSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Hospital Pharmacy Inventory Dispenser",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

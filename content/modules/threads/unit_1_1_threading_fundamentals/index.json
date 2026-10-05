@@ -1,0 +1,31 @@
+{
+  "id": "unit_1_1_threading_fundamentals",
+  "title": "Threading Fundamentals",
+  "order": 1,
+  "description": "Understand the Java thread model, process vs thread architecture in the JVM, extending Thread vs implementing Runnable, and the complete Thread.State lifecycle.",
+  "duration_hours": 6,
+  "difficulty": "beginner",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Java Threading Architecture & Fundamentals",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/ThreadingFundamentalsExercises.java",
+    "solution_file": "exercises/solutions/ThreadingFundamentalsSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Bedside Vitals Telemetry Poller",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "unit_id": "unit_2_6_concurrency_problems_and_patterns",
+  "title": "Concurrency Problems, Work-Stealing, and Patterns",
+  "module": "concurrency",
+  "order": 6,
+  "estimated_hours": 4,
+  "topics": [
+    "Race Conditions: Check-Then-Act and Read-Modify-Write",
+    "Deadlock: The 4 Coffman Conditions and Lock Ordering",
+    "Livelock and Thread Starvation",
+    "Fork/Join Framework and Work-Stealing Algorithm",
+    "RecursiveTask and RecursiveAction",
+    "Parallel Streams: When to Use and When to Avoid",
+    "Spliterators and Parallelism Pitfalls"
+  ]
+}
