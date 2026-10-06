@@ -65,6 +65,22 @@ java -ea -cp .temp_bin unit_2_6_concurrency_problems_and_patterns.exercises.Conc
 # Unit 2.7: Choosing the Right Concurrency Tool
 javac -d .temp_bin content/modules/concurrency/unit_2_7_choosing_the_right_concurrency_model/exercises/ChoosingConcurrencyToolExercises.java
 java -ea -cp .temp_bin unit_2_7_choosing_the_right_concurrency_model.exercises.ChoosingConcurrencyToolExercises
+
+# Unit 3.1: Database Fundamentals
+javac -d .temp_bin content/modules/database_part_1/unit_3_1_database_fundamentals/exercises/DatabaseFundamentalsExercises.java
+java -ea -cp .temp_bin DatabaseFundamentalsExercises
+
+# Unit 3.2: Java Database Connectivity (JDBC)
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_2_java_database_connectivity/exercises/JdbcConnectivityExercises.java
+java -ea -cp "lib/*;.temp_bin" JdbcConnectivityExercises
+
+# Unit 3.3: Working with PostgreSQL and Relational Stores
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_3_working_with_postgresql/exercises/PostgreSqlRelationalExercises.java
+java -ea -cp "lib/*;.temp_bin" PostgreSqlRelationalExercises
+
+# Unit 3.4: Database Security, Transactions, and Best Practices
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_4_security_and_best_practices/exercises/SecurityAndBestPracticesExercises.java
+java -ea -cp "lib/*;.temp_bin" SecurityAndBestPracticesExercises
 ```
 
 ### Run an Exercise Solution (Reference):
@@ -73,8 +89,17 @@ java -ea -cp .temp_bin unit_2_7_choosing_the_right_concurrency_model.exercises.C
 javac -d .temp_bin content/modules/threads/unit_1_1_threading_fundamentals/exercises/solutions/ThreadingFundamentalsSolutions.java
 java -ea -cp .temp_bin unit_1_1_threading_fundamentals.exercises.solutions.ThreadingFundamentalsSolutions
 
-javac -d .temp_bin content/modules/concurrency/unit_2_5_advanced_task_execution/exercises/solutions/AdvancedTaskExecutionSolutions.java
-java -ea -cp .temp_bin unit_2_5_advanced_task_execution.exercises.solutions.AdvancedTaskExecutionSolutions
+javac -d .temp_bin content/modules/database_part_1/unit_3_1_database_fundamentals/exercises/solutions/DatabaseFundamentalsSolutions.java
+java -ea -cp .temp_bin DatabaseFundamentalsSolutions
+
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_2_java_database_connectivity/exercises/solutions/JdbcConnectivitySolutions.java
+java -ea -cp "lib/*;.temp_bin" JdbcConnectivitySolutions
+
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_3_working_with_postgresql/exercises/solutions/PostgreSqlRelationalSolutions.java
+java -ea -cp "lib/*;.temp_bin" PostgreSqlRelationalSolutions
+
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_4_security_and_best_practices/exercises/solutions/SecurityAndBestPracticesSolutions.java
+java -ea -cp "lib/*;.temp_bin" SecurityAndBestPracticesSolutions
 ```
 
 ---
@@ -132,6 +157,22 @@ java -ea -cp .temp_bin unit_2_6_concurrency_problems_and_patterns.app_labs.lab_1
 # Unit 2.7 Lab: Clinical Metric Benchmark Harness
 javac -d .temp_bin (Get-ChildItem -Path "content/modules/concurrency/unit_2_7_choosing_the_right_concurrency_model/app_labs/lab_1_easy" -Filter "*.java" -Recurse | Select-Object -ExpandProperty FullName)
 java -ea -cp .temp_bin unit_2_7_choosing_the_right_concurrency_model.app_labs.lab_1_easy.LabTests
+
+# Unit 3.1 Lab: Hospital Patient Registry
+javac -d .temp_bin content/modules/database_part_1/unit_3_1_database_fundamentals/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_1/unit_3_1_database_fundamentals/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
+
+# Unit 3.2 Lab: Clinic Telemetry Pipeline & Pooled Engine
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_2_java_database_connectivity/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_1/unit_3_2_java_database_connectivity/app_labs/lab_1_easy/LabTests.java
+java -ea -cp "lib/*;.temp_bin" LabTests
+
+# Unit 3.3 Lab: Radiology Study Store & Structured Metrics
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_3_working_with_postgresql/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_1/unit_3_3_working_with_postgresql/app_labs/lab_1_easy/LabTests.java
+java -ea -cp "lib/*;.temp_bin" LabTests
+
+# Unit 3.4 Lab: Prescription Audit Ledger & Transaction Guard
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_4_security_and_best_practices/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_1/unit_3_4_security_and_best_practices/app_labs/lab_1_easy/LabTests.java
+java -ea -cp "lib/*;.temp_bin" LabTests
 ```
 
 ---

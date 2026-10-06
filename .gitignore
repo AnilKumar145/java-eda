@@ -3,6 +3,7 @@ target/
 .temp_bin/
 *.class
 *.jar
+lib/
 *.war
 *.ear
 
