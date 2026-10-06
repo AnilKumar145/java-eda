@@ -1,0 +1,31 @@
+{
+  "id": "unit_4_3_advanced_orm_features",
+  "title": "Advanced ORM Features",
+  "order": 3,
+  "description": "Master advanced JPA and Hibernate capabilities: Cascade operations (PERSIST, REMOVE, ALL), orphan removal, bidirectional relationships, Many-to-Many associations with join tables, lazy vs eager fetch strategies, detecting and eliminating the N+1 query problem using JOIN FETCH.",
+  "duration_hours": 6,
+  "difficulty": "advanced",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Cascades, Fetch Strategies, and N+1 Query Optimization",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/AdvancedOrmFeaturesExercises.java",
+    "solution_file": "exercises/solutions/AdvancedOrmFeaturesSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Patient Allergy Cross-Reference & Eager Loading Hub",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

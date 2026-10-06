@@ -1,0 +1,31 @@
+{
+  "id": "unit_4_2_jpa_persistence_context",
+  "title": "JPA/Hibernate Persistence Context",
+  "order": 2,
+  "description": "Deep-dive into the JPA/Hibernate Persistence Context: EntityManager mechanics, First-Level Cache (Identity Map), entity lifecycle states (Transient, Managed, Detached, Removed), automatic dirty checking, transaction boundaries, and JPQL query execution.",
+  "duration_hours": 6,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "EntityManager, Persistence Context & Entity Lifecycle",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/JpaPersistenceContextExercises.java",
+    "solution_file": "exercises/solutions/JpaPersistenceContextSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Surgical Schedule & Operating Theatre Dispatcher",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

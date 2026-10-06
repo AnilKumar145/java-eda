@@ -1,0 +1,13 @@
+{
+  "id": "database_part_2",
+  "title": "Database Programming — Part 2",
+  "order": 4,
+  "description": "Enterprise Object-Relational Mapping (ORM) and schema engineering in Java: JPA & Hibernate Architecture, Persistence Context & Entity Lifecycle, Advanced Relationships & Eager Fetching, Flyway Database Migrations, and SQL Logging & Profiling.",
+  "units": [
+    "unit_4_1_orm_fundamentals",
+    "unit_4_2_jpa_persistence_context",
+    "unit_4_3_advanced_orm_features",
+    "unit_4_4_database_migrations",
+    "unit_4_5_database_logging"
+  ]
+}

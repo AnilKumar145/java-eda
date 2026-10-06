@@ -81,6 +81,26 @@ java -ea -cp "lib/*;.temp_bin" PostgreSqlRelationalExercises
 # Unit 3.4: Database Security, Transactions, and Best Practices
 javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_4_security_and_best_practices/exercises/SecurityAndBestPracticesExercises.java
 java -ea -cp "lib/*;.temp_bin" SecurityAndBestPracticesExercises
+
+# Unit 4.1: ORM Fundamentals
+javac -d .temp_bin content/modules/database_part_2/unit_4_1_orm_fundamentals/exercises/OrmFundamentalsExercises.java
+java -ea -cp .temp_bin OrmFundamentalsExercises
+
+# Unit 4.2: JPA/Hibernate Persistence Context
+javac -d .temp_bin content/modules/database_part_2/unit_4_2_jpa_persistence_context/exercises/JpaPersistenceContextExercises.java
+java -ea -cp .temp_bin JpaPersistenceContextExercises
+
+# Unit 4.3: Advanced ORM Features
+javac -d .temp_bin content/modules/database_part_2/unit_4_3_advanced_orm_features/exercises/AdvancedOrmFeaturesExercises.java
+java -ea -cp .temp_bin AdvancedOrmFeaturesExercises
+
+# Unit 4.4: Database Migrations
+javac -d .temp_bin content/modules/database_part_2/unit_4_4_database_migrations/exercises/DatabaseMigrationsExercises.java
+java -ea -cp .temp_bin DatabaseMigrationsExercises
+
+# Unit 4.5: Database Logging and Diagnostics
+javac -d .temp_bin content/modules/database_part_2/unit_4_5_database_logging/exercises/DatabaseLoggingExercises.java
+java -ea -cp .temp_bin DatabaseLoggingExercises
 ```
 
 ### Run an Exercise Solution (Reference):
@@ -100,6 +120,21 @@ java -ea -cp "lib/*;.temp_bin" PostgreSqlRelationalSolutions
 
 javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_4_security_and_best_practices/exercises/solutions/SecurityAndBestPracticesSolutions.java
 java -ea -cp "lib/*;.temp_bin" SecurityAndBestPracticesSolutions
+
+javac -d .temp_bin content/modules/database_part_2/unit_4_1_orm_fundamentals/exercises/solutions/OrmFundamentalsSolutions.java
+java -ea -cp .temp_bin OrmFundamentalsSolutions
+
+javac -d .temp_bin content/modules/database_part_2/unit_4_2_jpa_persistence_context/exercises/solutions/JpaPersistenceContextSolutions.java
+java -ea -cp .temp_bin JpaPersistenceContextSolutions
+
+javac -d .temp_bin content/modules/database_part_2/unit_4_3_advanced_orm_features/exercises/solutions/AdvancedOrmFeaturesSolutions.java
+java -ea -cp .temp_bin AdvancedOrmFeaturesSolutions
+
+javac -d .temp_bin content/modules/database_part_2/unit_4_4_database_migrations/exercises/solutions/DatabaseMigrationsSolutions.java
+java -ea -cp .temp_bin DatabaseMigrationsSolutions
+
+javac -d .temp_bin content/modules/database_part_2/unit_4_5_database_logging/exercises/solutions/DatabaseLoggingSolutions.java
+java -ea -cp .temp_bin DatabaseLoggingSolutions
 ```
 
 ---
@@ -173,6 +208,26 @@ java -ea -cp "lib/*;.temp_bin" LabTests
 # Unit 3.4 Lab: Prescription Audit Ledger & Transaction Guard
 javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_1/unit_3_4_security_and_best_practices/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_1/unit_3_4_security_and_best_practices/app_labs/lab_1_easy/LabTests.java
 java -ea -cp "lib/*;.temp_bin" LabTests
+
+# Unit 4.1 Lab: Inpatient Bed Allocation & Ward Registry
+javac -d .temp_bin content/modules/database_part_2/unit_4_1_orm_fundamentals/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_2/unit_4_1_orm_fundamentals/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
+
+# Unit 4.2 Lab: Surgical Schedule & Operating Theatre Dispatcher
+javac -d .temp_bin content/modules/database_part_2/unit_4_2_jpa_persistence_context/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_2/unit_4_2_jpa_persistence_context/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
+
+# Unit 4.3 Lab: Patient Allergy Cross-Reference & Eager Loading Hub
+javac -d .temp_bin content/modules/database_part_2/unit_4_3_advanced_orm_features/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_2/unit_4_3_advanced_orm_features/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
+
+# Unit 4.4 Lab: Pharmacy Drug Formulary Schema Evolution Engine
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/database_part_2/unit_4_4_database_migrations/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_2/unit_4_4_database_migrations/app_labs/lab_1_easy/LabTests.java
+java -ea -cp "lib/*;.temp_bin" LabTests
+
+# Unit 4.5 Lab: ICU Diagnostic Query Profiler & Slow Statement Watchdog
+javac -d .temp_bin content/modules/database_part_2/unit_4_5_database_logging/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_2/unit_4_5_database_logging/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
 ```
 
 ---

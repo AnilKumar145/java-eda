@@ -1,0 +1,31 @@
+{
+  "id": "unit_4_1_orm_fundamentals",
+  "title": "ORM Fundamentals",
+  "order": 1,
+  "description": "Master Object-Relational Mapping (ORM) principles in Java: the object-relational impedance mismatch, JPA (Jakarta Persistence) vs Hibernate, declarative entity mapping with annotations, table and column definitions, primary key generation strategies, and relationship modeling.",
+  "duration_hours": 6,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "JPA & Hibernate Architecture and Entity Fundamentals",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/OrmFundamentalsExercises.java",
+    "solution_file": "exercises/solutions/OrmFundamentalsSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Inpatient Bed Allocation & Ward Registry",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

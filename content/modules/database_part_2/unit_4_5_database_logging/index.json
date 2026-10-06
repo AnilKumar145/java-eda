@@ -1,0 +1,31 @@
+{
+  "id": "unit_4_5_database_logging",
+  "title": "Database Logging and Diagnostics",
+  "order": 5,
+  "description": "Master database logging, profiling, and diagnostics in enterprise Java: Hibernate SQL logging, bound parameter logging, execution duration profiling, slow query watchdogs, HikariCP connection pool telemetry, and entity audit stamping.",
+  "duration_hours": 6,
+  "difficulty": "advanced",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Database Logging, Statement Profiling, and Pool Telemetry",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/DatabaseLoggingExercises.java",
+    "solution_file": "exercises/solutions/DatabaseLoggingSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "ICU Diagnostic Query Profiler & Slow Statement Watchdog",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}
