@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_7_test_coverage_and_best_practices",
+  "title": "Test Coverage and Best Practices",
+  "order": 7,
+  "description": "Master code coverage and test design best practices in Java: line vs branch coverage, JaCoCo metric gates, eradicating false confidence and flakiness, testing pyramid architecture, and HIPAA-compliant cryptographic audit ledgers.",
+  "duration_hours": 4,
+  "difficulty": "advanced",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Code Coverage Metrics, JaCoCo, and Quality Assurance Best Practices",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 75
+    }
+  ],
+  "exercises": {
+    "file": "exercises/TestCoverageAndBestPracticesExercises.java",
+    "solution_file": "exercises/solutions/TestCoverageAndBestPracticesSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Clinical Audit Log Quality Gate and Coverage Harness",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

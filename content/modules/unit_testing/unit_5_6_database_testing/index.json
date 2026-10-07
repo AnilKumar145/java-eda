@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_6_database_testing",
+  "title": "Database Testing",
+  "order": 6,
+  "description": "Master automated database testing in Java: in-memory H2 database fixtures, schema initialization and teardown lifecycles, connection rollbacks for isolated test executions, repository DAO CRUD testing, and database constraint violation assertions in pharmacy inventory systems.",
+  "duration_hours": 5,
+  "difficulty": "advanced",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "In-Memory Database Test Harnesses, Transaction Rollbacks, and Repository Testing",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 80
+    }
+  ],
+  "exercises": {
+    "file": "exercises/DatabaseTestingExercises.java",
+    "solution_file": "exercises/solutions/DatabaseTestingSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Pharmacy Medication Inventory Repository Test Harness",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

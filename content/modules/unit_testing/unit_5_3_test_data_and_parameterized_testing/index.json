@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_3_test_data_and_parameterized_testing",
+  "title": "Test Data and Parameterized Testing",
+  "order": 3,
+  "description": "Master data-driven testing in Java with JUnit 5: @ParameterizedTest, @ValueSource, @CsvSource, @MethodSource, Object Mother and Test Data Builder patterns, temporary file fixtures (@TempDir), and clinical reference range test matrices.",
+  "duration_hours": 4,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Parameterized Testing, Test Data Builders, and Temporary Resources",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 70
+    }
+  ],
+  "exercises": {
+    "file": "exercises/TestDataAndParameterizedExercises.java",
+    "solution_file": "exercises/solutions/TestDataAndParameterizedSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Clinical Lab Test Reference Range and Reagent Harness",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

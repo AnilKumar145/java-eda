@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_4_mocking_and_isolation",
+  "title": "Mocking and Isolation",
+  "order": 4,
+  "description": "Master unit test isolation with Mockito and test doubles in Java: stubs, mocks, spies, method stubbing (when().thenReturn()), interaction verification (verify()), argument matchers, and testing mission-critical emergency gateway fallbacks.",
+  "duration_hours": 5,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Test Doubles, Mockito Fundamentals, and Interaction Verification",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 75
+    }
+  ],
+  "exercises": {
+    "file": "exercises/MockingAndIsolationExercises.java",
+    "solution_file": "exercises/solutions/MockingAndIsolationSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Critical Alert SMS and Pager Notification Gateway",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

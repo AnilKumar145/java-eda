@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_5_exceptions_and_edge_cases",
+  "title": "Exceptions and Edge Cases",
+  "order": 5,
+  "description": "Master exception testing and boundary-value analysis (BVA) in Java: custom clinical exception hierarchies, testing with assertThrows, exception message inspection, negative testing, and blood bank transfusion compatibility invariants.",
+  "duration_hours": 4,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Exception Assertions, Boundary Value Analysis, and Custom Error Payloads",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 65
+    }
+  ],
+  "exercises": {
+    "file": "exercises/ExceptionsAndEdgeCasesExercises.java",
+    "solution_file": "exercises/solutions/ExceptionsAndEdgeCasesSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Blood Bank Transfusion Compatibility Guard",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

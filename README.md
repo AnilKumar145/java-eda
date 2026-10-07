@@ -101,6 +101,34 @@ java -ea -cp .temp_bin DatabaseMigrationsExercises
 # Unit 4.5: Database Logging and Diagnostics
 javac -d .temp_bin content/modules/database_part_2/unit_4_5_database_logging/exercises/DatabaseLoggingExercises.java
 java -ea -cp .temp_bin DatabaseLoggingExercises
+
+# Unit 5.1: Testing Fundamentals
+javac -d .temp_bin content/modules/unit_testing/unit_5_1_testing_fundamentals/exercises/TestingFundamentalsExercises.java
+java -ea -cp .temp_bin TestingFundamentalsExercises
+
+# Unit 5.2: JUnit Fundamentals
+javac -d .temp_bin content/modules/unit_testing/unit_5_2_junit_fundamentals/exercises/JUnitFundamentalsExercises.java
+java -ea -cp .temp_bin JUnitFundamentalsExercises
+
+# Unit 5.3: Test Data and Parameterized Testing
+javac -d .temp_bin content/modules/unit_testing/unit_5_3_test_data_and_parameterized_testing/exercises/TestDataAndParameterizedExercises.java
+java -ea -cp .temp_bin TestDataAndParameterizedExercises
+
+# Unit 5.4: Mocking and Isolation
+javac -d .temp_bin content/modules/unit_testing/unit_5_4_mocking_and_isolation/exercises/MockingAndIsolationExercises.java
+java -ea -cp .temp_bin MockingAndIsolationExercises
+
+# Unit 5.5: Exceptions and Edge Cases
+javac -d .temp_bin content/modules/unit_testing/unit_5_5_exceptions_and_edge_cases/exercises/ExceptionsAndEdgeCasesExercises.java
+java -ea -cp .temp_bin ExceptionsAndEdgeCasesExercises
+
+# Unit 5.6: Database Testing
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/unit_testing/unit_5_6_database_testing/exercises/DatabaseTestingExercises.java
+java -ea -cp "lib/*;.temp_bin" DatabaseTestingExercises
+
+# Unit 5.7: Test Coverage and Best Practices
+javac -d .temp_bin content/modules/unit_testing/unit_5_7_test_coverage_and_best_practices/exercises/TestCoverageAndBestPracticesExercises.java
+java -ea -cp .temp_bin TestCoverageAndBestPracticesExercises
 ```
 
 ### Run an Exercise Solution (Reference):
@@ -135,6 +163,34 @@ java -ea -cp .temp_bin DatabaseMigrationsSolutions
 
 javac -d .temp_bin content/modules/database_part_2/unit_4_5_database_logging/exercises/solutions/DatabaseLoggingSolutions.java
 java -ea -cp .temp_bin DatabaseLoggingSolutions
+
+# Unit 5.1: Testing Fundamentals
+javac -d .temp_bin content/modules/unit_testing/unit_5_1_testing_fundamentals/exercises/solutions/TestingFundamentalsSolutions.java
+java -ea -cp .temp_bin TestingFundamentalsSolutions
+
+# Unit 5.2: JUnit Fundamentals
+javac -d .temp_bin content/modules/unit_testing/unit_5_2_junit_fundamentals/exercises/solutions/JUnitFundamentalsSolutions.java
+java -ea -cp .temp_bin JUnitFundamentalsSolutions
+
+# Unit 5.3: Test Data and Parameterized Testing
+javac -d .temp_bin content/modules/unit_testing/unit_5_3_test_data_and_parameterized_testing/exercises/solutions/TestDataAndParameterizedSolutions.java
+java -ea -cp .temp_bin TestDataAndParameterizedSolutions
+
+# Unit 5.4: Mocking and Isolation
+javac -d .temp_bin content/modules/unit_testing/unit_5_4_mocking_and_isolation/exercises/solutions/MockingAndIsolationSolutions.java
+java -ea -cp .temp_bin MockingAndIsolationSolutions
+
+# Unit 5.5: Exceptions and Edge Cases
+javac -d .temp_bin content/modules/unit_testing/unit_5_5_exceptions_and_edge_cases/exercises/solutions/ExceptionsAndEdgeCasesSolutions.java
+java -ea -cp .temp_bin ExceptionsAndEdgeCasesSolutions
+
+# Unit 5.6: Database Testing
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/unit_testing/unit_5_6_database_testing/exercises/solutions/DatabaseTestingSolutions.java
+java -ea -cp "lib/*;.temp_bin" DatabaseTestingSolutions
+
+# Unit 5.7: Test Coverage and Best Practices
+javac -d .temp_bin content/modules/unit_testing/unit_5_7_test_coverage_and_best_practices/exercises/solutions/TestCoverageAndBestPracticesSolutions.java
+java -ea -cp .temp_bin TestCoverageAndBestPracticesSolutions
 ```
 
 ---
@@ -227,6 +283,34 @@ java -ea -cp "lib/*;.temp_bin" LabTests
 
 # Unit 4.5 Lab: ICU Diagnostic Query Profiler & Slow Statement Watchdog
 javac -d .temp_bin content/modules/database_part_2/unit_4_5_database_logging/app_labs/lab_1_easy/solution/Solution.java content/modules/database_part_2/unit_4_5_database_logging/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
+
+# Unit 5.1 Lab: Emergency Triage Patient Scoring Test Suite
+javac -d .temp_bin content/modules/unit_testing/unit_5_1_testing_fundamentals/app_labs/lab_1_easy/solution/Solution.java content/modules/unit_testing/unit_5_1_testing_fundamentals/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
+
+# Unit 5.2 Lab: Pediatric Dosage Calculator Test Harness
+javac -d .temp_bin content/modules/unit_testing/unit_5_2_junit_fundamentals/app_labs/lab_1_easy/solution/Solution.java content/modules/unit_testing/unit_5_2_junit_fundamentals/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
+
+# Unit 5.3 Lab: Clinical Lab Test Reference Range and Reagent Harness
+javac -d .temp_bin content/modules/unit_testing/unit_5_3_test_data_and_parameterized_testing/app_labs/lab_1_easy/solution/Solution.java content/modules/unit_testing/unit_5_3_test_data_and_parameterized_testing/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
+
+# Unit 5.4 Lab: Critical Alert SMS and Pager Notification Gateway
+javac -d .temp_bin content/modules/unit_testing/unit_5_4_mocking_and_isolation/app_labs/lab_1_easy/solution/Solution.java content/modules/unit_testing/unit_5_4_mocking_and_isolation/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
+
+# Unit 5.5 Lab: Blood Bank Transfusion Compatibility Guard
+javac -d .temp_bin content/modules/unit_testing/unit_5_5_exceptions_and_edge_cases/app_labs/lab_1_easy/solution/Solution.java content/modules/unit_testing/unit_5_5_exceptions_and_edge_cases/app_labs/lab_1_easy/LabTests.java
+java -ea -cp .temp_bin LabTests
+
+# Unit 5.6 Lab: Pharmacy Medication Inventory Repository Test Harness
+javac -cp "lib/*;.temp_bin" -d .temp_bin content/modules/unit_testing/unit_5_6_database_testing/app_labs/lab_1_easy/solution/Solution.java content/modules/unit_testing/unit_5_6_database_testing/app_labs/lab_1_easy/LabTests.java
+java -ea -cp "lib/*;.temp_bin" LabTests
+
+# Unit 5.7 Lab: Clinical Audit Log Quality Gate and Coverage Harness
+javac -d .temp_bin content/modules/unit_testing/unit_5_7_test_coverage_and_best_practices/app_labs/lab_1_easy/solution/Solution.java content/modules/unit_testing/unit_5_7_test_coverage_and_best_practices/app_labs/lab_1_easy/LabTests.java
 java -ea -cp .temp_bin LabTests
 ```
 

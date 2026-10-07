@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_1_testing_fundamentals",
+  "title": "Testing Fundamentals",
+  "order": 1,
+  "description": "Understand core software testing paradigms in Java: unit vs integration testing, the Arrange-Act-Assert (AAA) pattern, test fixture isolation, deterministic test design, and test-driven development (TDD) for mission-critical clinical algorithms.",
+  "duration_hours": 4,
+  "difficulty": "beginner",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Software Testing Foundations, the AAA Pattern, and Test Isolation",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 60
+    }
+  ],
+  "exercises": {
+    "file": "exercises/TestingFundamentalsExercises.java",
+    "solution_file": "exercises/solutions/TestingFundamentalsSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Emergency Triage Patient Scoring Test Suite",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

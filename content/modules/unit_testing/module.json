@@ -1,0 +1,15 @@
+{
+  "id": "unit_testing",
+  "title": "Unit Testing & Quality Assurance",
+  "order": 5,
+  "description": "Enterprise software testing in Java: JUnit 5 lifecycle, assertions, test data management, Mockito test doubles, exception handling verification, in-memory H2 database integration testing, JaCoCo coverage metrics, and test pyramid best practices in healthcare systems.",
+  "units": [
+    "unit_5_1_testing_fundamentals",
+    "unit_5_2_junit_fundamentals",
+    "unit_5_3_test_data_and_parameterized_testing",
+    "unit_5_4_mocking_and_isolation",
+    "unit_5_5_exceptions_and_edge_cases",
+    "unit_5_6_database_testing",
+    "unit_5_7_test_coverage_and_best_practices"
+  ]
+}

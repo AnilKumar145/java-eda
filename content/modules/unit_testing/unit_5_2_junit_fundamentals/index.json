@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_2_junit_fundamentals",
+  "title": "JUnit Fundamentals",
+  "order": 2,
+  "description": "Master JUnit 5 test architecture in Java: test class structure, @Test annotations, assertions (assertEquals, assertTrue, assertFalse, assertThrows), test lifecycle callbacks (@BeforeEach, @AfterEach, @BeforeAll, @AfterAll), and custom assertion error messages for clinical calculations.",
+  "duration_hours": 4,
+  "difficulty": "beginner",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "JUnit 5 Lifecycle, Assertions API, and Test Execution Model",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 65
+    }
+  ],
+  "exercises": {
+    "file": "exercises/JUnitFundamentalsExercises.java",
+    "solution_file": "exercises/solutions/JUnitFundamentalsSolutions.java",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Pediatric Dosage Calculator Test Harness",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}
